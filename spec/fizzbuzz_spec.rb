@@ -3,6 +3,7 @@ require 'fizzbuzz'
 describe 'fizzbuzz' do
 
 	context "knows that a number is divisible by" do
+
 		it '3' do
 			expect(is_divisible_by_three?(3)).to eq(true)
 		end
@@ -15,6 +16,7 @@ describe 'fizzbuzz' do
 	end
 
 	context "knows that a number is not divisible by" do
+
 		it '3' do
 			expect(is_divisible_by_three?(1)).to eq(false)
 		end
@@ -23,6 +25,19 @@ describe 'fizzbuzz' do
 		end
 		it '15' do
 			expect(is_divisible_by_fifteen?(1)).to eq(false)
+		end
+	end
+
+	context "while playing the game it returns" do
+
+		it 'Fizz' do
+			expect(fizzbuzz(3)).to eq "Fizz"
+		end 
+		it 'Buzz' do
+			expect(fizzbuzz(5)).to eq "Buzz"
+		end
+		it 'FizzBuzz' do
+			expect(fizzbuzz(15)).to eq "FizzBuzz"
 		end
 	end
 
