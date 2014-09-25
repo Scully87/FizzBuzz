@@ -2,4 +2,5 @@ Creating a FizzBuzz challenge
 
 Players take turns to count incrementally, replacing any number 
 divisible by three with the word fizz, and any number divisible by 
-five with the word buzz.
+five with the word buzz..
+numbers that are divisible by three and five will return 'fizzbuzz'.
