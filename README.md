@@ -1,6 +1,10 @@
-Creating a FizzBuzz challenge
+Creating a FizzBuzz challenge in Ruby
+=============================================
 
-Players take turns to count incrementally, replacing any number 
-divisible by three with the word fizz, and any number divisible by 
-five with the word buzz..
-numbers that are divisible by three and five will return 'fizzbuzz'.
+Players take turns to count incrementally, 
+replacing any number that is
+divisible by three with the word 'Fizz', and any 
+number divisible by 
+five with the word 'Buzz'.
+Numbers that are divisible by three and five 
+will return 'Fizzbuzz'.
